@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Random Flag Generator</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+Random Flag Generator
+- 1-9 bands (horizontal/vertical)
+- 13 colours
+- 5 shapes - circle, eye, heart, star, triangle
+
+Format: NOC(N)SH
+- N - number of bands (1-9)
+- O - orientation of bands (h/v)
+- C(N) - N band colour indexes (0-9a-c)
+- S - shape (c,f,r,s,t)(optional)
+- H - shape colour index (0-9a-c)(optional)
+
+Examples:
+- 1h0 - Plain black
+- 1h1sc - Vietnam
+- 3h01c - Germany 
+- 2hb1t6 - Czechia
+- 6h12c467fb - LGBT pride 
+- 9h012ccc210r0 - Evil eye 
+- 5va434acb - Green bands with circle
+
+-->
+<div class="flag"></div>
+<form>
+  <input type="text"/>
+  <button class="generate">Shuffle</button>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
