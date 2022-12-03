@@ -22,9 +22,9 @@ form input {
   text-align: center;
 }
 form button {
-  background: #000080;
+  background: #000000;
   border: none;
-  color: #fff;
+  color: #000;
   flex-basis: 50%;
   flex-grow: 1;
   padding: 1em 0;
